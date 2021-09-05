@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        count++;
+        count++;    int count2=235;
         textView.setText(Integer.toString(count));
     }
 }
